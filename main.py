@@ -51,7 +51,7 @@ model = load_model(model_path)
 face_tensor = np.array(face)
 input_tensor = tf.expand_dims(preprocess_image(face_tensor, (350, 350)), axis=0)
 prediction = model.predict(input_tensor)[0][0]
-print(f"{ prediction * 2 }/10")
+print(f"{ prediction }/5")
 
 # Display the selection from the original image as a red rectangle
 cv2.rectangle(img, (face_x, face_y), (face_x + face_w, face_y + face_h), (0, 0, 255), 2) 

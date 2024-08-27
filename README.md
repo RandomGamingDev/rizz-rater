@@ -11,7 +11,7 @@ Then, using that it'll crop out the face and resize it to `350x350` so that it c
 <img src="face.jpg" width="200" />
 
 Finally, it'll give us the result, which in this case is:
-### 7.033928871154785/10
+### 3.153116226196289/5
 Note: The model is biased towards east asian and caucasian individuals due to its [model](https://github.com/gustavz/AttractiveNet)'s [dataset](https://arxiv.org/pdf/1801.06345)
 
 The model used for this library is from here: https://github.com/gustavz/AttractiveNet <br/>
