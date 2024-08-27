@@ -35,7 +35,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 face_cascade = cv2.CascadeClassifier("models/haarcascade_frontalface_alt2.xml") 
 
 # Detect faces 
-faces = face_cascade.detectMultiScale(gray, 1.1, 4)
+faces = face_cascade.detectMultiScale(gray, 1.2, 4)
 if len(faces) == 0:
     raise Exception("There were no detected faces in the image") 
 # We only need the first face
