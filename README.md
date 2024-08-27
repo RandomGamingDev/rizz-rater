@@ -14,5 +14,5 @@ Finally, it'll give us the result, which in this case is:
 ### 7.033928871154785/10
 Note: The model is biased towards east asian and caucasian individuals due to its [model](https://github.com/gustavz/AttractiveNet)'s [dataset](https://arxiv.org/pdf/1801.06345)
 
-The model used for this library is from here: https://github.com/gustavz/AttractiveNet
-The dataset used for the model is from here: https://arxiv.org/pdf/1801.06345
+The model used for this library is from here: https://github.com/gustavz/AttractiveNet <br/>
+The dataset used for the model is from here: https://arxiv.org/pdf/1801.06345 <br/>
