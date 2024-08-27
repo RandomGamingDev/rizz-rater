@@ -21,7 +21,7 @@ def resize_with_pad(image, new_shape, padding_color = (255, 255, 255)) -> np.arr
     return image
 
 def preprocess_image(image, target_size):
-    return resize_with_pad(image, target_size)# / .255
+    return resize_with_pad(image, target_size) / .255
 
 # Read the input image 
 img = cv2.imread(input("Enter the path to the image you'd like to get rated: ")) 
